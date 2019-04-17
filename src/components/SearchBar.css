@@ -1,0 +1,18 @@
+.search-bar {
+    width: 500px;
+    height: auto;
+    position: relative;
+    margin: 10px 20px;
+    padding: 30px 100px;
+}
+
+#search-bar-input {
+    display: inline-block;
+    position: relative;
+    height: 40px;
+    width: 100%;
+    background-color: paleturquoise;
+    align-items: center;
+    border : 1px solid;
+    border-radius: 8px;
+}
