@@ -15,9 +15,10 @@ class SearchBar extends Component {
   }
 
   render() {
+    const searchIcon = (<img className="search-icon" src={require('../content/search-icon.png')} alt="search icon"/>);
     return (
       <div>
-        <form className="search-bar">
+        <div className="search-bar">
           <input
             type="text"
             value={this.state.value}
@@ -25,7 +26,8 @@ class SearchBar extends Component {
             placeholder="Enter search query"
             id="search-bar-input"
           />
-        </form>
+          {/* {searchIcon} */}
+        </div>
         <p>You entered : {this.state.value}</p>
       </div>
     );
