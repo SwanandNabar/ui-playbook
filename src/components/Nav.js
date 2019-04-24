@@ -16,8 +16,13 @@ export default function Nav() {
         </NavLink>
       </li>
       <li>
-        <NavLink activeClassName="active" to="/Greetings">
+        <NavLink activeClassName="active" to="/greetings">
           Greetings
+        </NavLink>
+      </li>
+      <li>
+        <NavLink activeClassName="active" to="/work">
+          Work History
         </NavLink>
       </li>
     </ul>

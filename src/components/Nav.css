@@ -7,6 +7,11 @@
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+    color: #0095ff;
+}
+
 .nav li {
     margin-right: 15px;
 }
