@@ -1,11 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import "./Nav.css";
 
 export default function Nav() {
   return (
     <ul className="nav">
       <li>
-        <NavLink activeClassName="active" to="/">
+        <NavLink exact activeClassName="active" to="/">
           Home
         </NavLink>
       </li>

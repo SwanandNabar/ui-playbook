@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <div>
+        <div className="container">
           <Route path="/" component={Nav} />
           <Route path="/greetings" component={Greetings} />
           <Route path="/search" component={SearchBar} />

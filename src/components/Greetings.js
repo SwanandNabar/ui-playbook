@@ -31,7 +31,7 @@ export default function Greetings(props) {
     <div>
       <input value={name} onChange={handleNameChange} />
       <input value={surname} onChange={handleSurnameChange} />
-      <div>value={width}</div>
+      <div>{width}</div>
     </div>
   );
 }
